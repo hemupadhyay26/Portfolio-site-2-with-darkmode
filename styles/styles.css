@@ -6,6 +6,8 @@
 }
 
 :root {
+  --scrollbar-track-color: #f0f0f0; 
+  --scrollbar-thumb-color: #4caf50;
   --color-primary: #191d2b;
   --color-secondary: #27ae60;
   --color-white: #ffffff;
@@ -1064,3 +1066,21 @@ section {
   text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
+
+
+/* Apply styles to scrollbar */
+/* Track */
+::-webkit-scrollbar {
+  width: 2px; /* Width of the scrollbar */
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color); /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners for the scrollbar thumb */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-color); /* Color of the scrollbar track */
+}
