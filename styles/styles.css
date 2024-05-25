@@ -1064,3 +1064,17 @@ section {
   text-decoration: underline;
 }
 /*# sourceMappingURL=styles.css.map */
+
+.live-count {
+  background-color: none;
+  text-align: left;
+  /* font-size: 1.5em; */
+  margin-bottom: 20px;
+  color: #dde9ff;
+}
+.live-count #counter {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #27ae60;
+}
