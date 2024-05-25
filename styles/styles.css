@@ -1067,20 +1067,16 @@ section {
 }
 /*# sourceMappingURL=styles.css.map */
 
-
-/* Apply styles to scrollbar */
-/* Track */
-::-webkit-scrollbar {
-  width: 2px; /* Width of the scrollbar */
+.live-count {
+  background-color: none;
+  text-align: left;
+  /* font-size: 1.5em; */
+  margin-bottom: 20px;
+  color: #dde9ff;
 }
-
-/* Thumb */
-::-webkit-scrollbar-thumb {
-  background-color: var(--scrollbar-thumb-color); /* Color of the scrollbar thumb */
-  border-radius: 5px; /* Rounded corners for the scrollbar thumb */
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background-color: var(--scrollbar-track-color); /* Color of the scrollbar track */
+.live-count #counter {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #27ae60;
 }
