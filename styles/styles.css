@@ -1067,16 +1067,27 @@ section {
 }
 /*# sourceMappingURL=styles.css.map */
 
-.live-count {
-  background-color: none;
-  text-align: left;
-  /* font-size: 1.5em; */
-  margin-bottom: 20px;
-  color: #dde9ff;
-}
 .live-count #counter {
   display: inline-block;
   font-size: 1.5em;
   font-weight: bold;
   color: #27ae60;
+}
+.social-sites {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 5rem;
+}
+
+.social-sites i {
+  font-size: 2rem;
+  color: var(--color-grey-4);
+  transition: color 0.5s;
+}
+
+.social-sites i:hover {
+  color: var(--color-secondary);
+  cursor: pointer;
 }
