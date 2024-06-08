@@ -67,7 +67,7 @@
     try {
       // Fetch the count from the URL
       const response = await fetch(
-        "https://rrorh2oecyroizs56oq2ffoilm0hsyfm.lambda-url.ap-south-1.on.aws/"
+        // "https://rrorh2oecyroizs56oq2ffoilm0hsyfm.lambda-url.ap-south-1.on.aws/"
       );
       // Parse the response as JSON
       const data = await response.json();
