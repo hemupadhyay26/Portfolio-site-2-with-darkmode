@@ -66,9 +66,6 @@ function commander(cmd) {
       loopLines(social, "color2 margin", 80);
       break;
 
-    case "projects":
-      loopLines(projects, "color2 margin", 80);
-      break;
     case "history":
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
